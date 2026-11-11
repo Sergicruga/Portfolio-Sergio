@@ -4,7 +4,7 @@ Web estática (HTML + CSS + JavaScript), pensada para enlazar desde LinkedIn.
 
 ## Qué incluye
 - GoPlan: dos capturas reales + enlace a Google Play.
-- Reset de Conciencia: tarjeta ilustrativa + enlace a la web real.
+- Reset de Conciencia: captura real + enlace a la web real.
 - Football Stats: captura real facilitada por el autor.
 - Peluquería Dreams: captura real facilitada por el autor.
 - Diseño responsive, navegación y filtros de proyectos.

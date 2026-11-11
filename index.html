@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101c33" />
+  <meta name="description" content="Portfolio de Sergio de la Cruz, desarrollador web y de aplicaciones en formación. Proyectos publicados con JavaScript, React Native, Node.js, Supabase, PHP, Laravel y Java." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sergio de la Cruz | Desarrollador web y de aplicaciones" />
+  <meta property="og:description" content="Proyectos reales. Desarrollo web, móvil y aplicaciones de gestión. Descubre GoPlan, Reset de Conciencia, Football Stats y Peluquería Dreams." />
+  <meta property="og:image" content="assets/portfolio-social.png" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <title>Sergio de la Cruz · Portfolio de desarrollo</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="top-region" id="inicio">
+    <header class="header container" role="banner">
+      <a class="brand" href="#inicio" aria-label="Inicio del portfolio de Sergio de la Cruz"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Sergio<span class="brand-dot">.</span>dev</span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a><a href="#tecnologias">Tecnologías</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto" class="nav-contact">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="contenido">
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Abierto a oportunidades junior · Barcelona y remoto</p>
+          <h1 id="hero-title">Desarrollo ideas.<br /><em>Construyo soluciones.</em></h1>
+          <p class="lead">Soy <strong>Sergio de la Cruz</strong>. Desarrollo aplicaciones web, móviles y herramientas de gestión. Estoy finalizando el Grado Superior de DAW y ya he llevado proyectos reales desde la idea hasta su publicación.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#sobre-mi">Conocer mi perfil</a></div>
+          <div class="hero-points"><span><b>04</b> proyectos seleccionados</span><span class="point-divider"></span><span><b>02</b> productos publicados</span></div>
+        </div>
+        <div class="hero-art" aria-label="Muestra de la aplicación GoPlan">
+          <div class="decor-orb orb-one"></div><div class="decor-orb orb-two"></div>
+          <div class="hero-art-label"><span class="tiny-spark">✦</span> Proyectos que funcionan</div>
+          <div class="hero-phone"><div class="phone-notch"></div><img src="assets/goplan-ubicacion.webp" width="709" height="1536" alt="Captura real de GoPlan: búsqueda por ubicación, destino y distancia" /></div>
+          <div class="hero-mini-card card-a"><span class="mini-icon">⌖</span><div><b>Búsqueda por ciudad</b><small>GoPlan · Android</small></div></div>
+          <div class="hero-mini-card card-b"><span class="mini-icon mint-icon">✓</span><div><b>En Google Play</b><small>Aplicación publicada</small></div></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="trust-strip" aria-label="Tecnologías principales"><div class="container"><span class="trust-label">Stack y herramientas</span><span>JavaScript</span><span>React Native</span><span>Node.js</span><span>PHP / Laravel</span><span>Supabase</span><span>Java</span></div></section>
+
+    <section class="projects-section section-pad container" id="proyectos" aria-labelledby="projects-title">
+      <div class="section-heading"><div><span class="section-kicker">01 / TRABAJO REAL</span><h2 id="projects-title">Proyectos que puedo <span>enseñar.</span></h2></div><p>Aplicaciones que he desarrollado a partir de necesidades concretas, con apoyo de herramientas de IA y revisión del resultado.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar proyectos"><button class="filter active" type="button" data-filter="todos" aria-pressed="true">Todos <span>04</span></button><button class="filter" type="button" data-filter="movil" aria-pressed="false">Móvil</button><button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button><button class="filter" type="button" data-filter="escritorio" aria-pressed="false">Escritorio</button></div>
+      <div class="projects-grid" id="project-list">
+        <article class="project-card project-goplan project-featured" data-type="movil">
+          <div class="project-visual visual-goplan"><div class="visual-glow"></div><div class="visual-topline"><span>01 / APP MÓVIL</span><span class="visual-pin">● Android</span></div><div class="phones"><div class="device device-left"><img src="assets/goplan-eventos.webp" width="738" height="1600" loading="lazy" alt="Captura de GoPlan con tarjetas de conciertos y eventos" /></div><div class="device device-right"><img src="assets/goplan-ubicacion.webp" width="709" height="1536" loading="lazy" alt="Captura de GoPlan con selector de ubicación y radio de búsqueda" /></div></div><span class="visual-caption">Capturas reales de la aplicación</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-index">PROYECTO 01</span><span class="live-tag"><span></span> Publicado</span></div><h3>GoPlan</h3><p>Aplicación Android para descubrir, guardar y compartir eventos. Búsqueda por ubicación, perfiles, favoritos, creación de eventos e integración de fuentes externas.</p><ul class="tag-list" aria-label="Tecnologías de GoPlan"><li>React Native</li><li>JavaScript</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Render</li></ul><a class="project-link" href="https://play.google.com/store/apps/details?id=com.sergicruga.eventoapp" target="_blank" rel="noopener noreferrer">Ver en Google Play <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card project-reset project-featured" data-type="web">
+          <div class="project-visual visual-capture reset-capture"><img src="assets/reset-de-conciencia.webp" width="1600" height="787" loading="lazy" alt="Captura real de Reset de Conciencia con la portada de la web, menú de navegación y espacio de yoga" /><span class="capture-label">Captura real · Reset de Conciencia</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-index">PROYECTO 02</span><span class="live-tag"><span></span> Publicado</span></div><h3>Reset de Conciencia</h3><p>Web desarrollada para otra persona, con JavaScript, servicios de backend y base de datos mediante Supabase, y despliegue en Vercel.</p><ul class="tag-list" aria-label="Tecnologías de Reset de Conciencia"><li>JavaScript</li><li>Supabase</li><li>Vercel</li><li>Desarrollo web</li></ul><a class="project-link" href="https://resetdeconciencia.com/" target="_blank" rel="noopener noreferrer">Visitar sitio web <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card project-half" data-type="web">
+          <div class="project-visual visual-capture football-capture"><img src="assets/football-stats.webp" width="1600" height="727" loading="lazy" alt="Captura real de Football Stats con acceso para clubes, familias y exploración de clubes" /><span class="capture-label">Captura real · Football Stats</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-index">PROYECTO 03</span><span class="status-tag">Aplicación web</span></div><h3>Football Stats</h3><p>Plataforma de estadísticas de fútbol base con acceso diferenciado para clubes y familias. Datos deportivos, temporadas y consulta de información de equipos.</p><ul class="tag-list"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Bootstrap</li></ul><span class="no-link-note">Demostración disponible bajo solicitud</span></div>
+        </article>
+        <article class="project-card project-half" data-type="escritorio">
+          <div class="project-visual visual-capture dreams-capture"><img src="assets/peluqueria-dreams.webp" width="1600" height="823" loading="lazy" alt="Captura real de Peluquería Dreams con agenda mensual, personal y franjas horarias" /><span class="capture-label">Captura real · Peluquería Dreams</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-index">PROYECTO 04</span><span class="status-tag">Aplicación de escritorio</span></div><h3>Peluquería Dreams</h3><p>Herramienta de gestión para una peluquería: agenda por trabajadores, clientes, servicios, productos, caja y estadísticas de negocio.</p><ul class="tag-list"><li>Java</li><li>JavaFX</li><li>MySQL</li><li>Gestión empresarial</li></ul><span class="no-link-note">Proyecto de escritorio · sin enlace público</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="tech-section section-pad" id="tecnologias" aria-labelledby="tech-title"><div class="container"><div class="section-heading light-heading"><div><span class="section-kicker">02 / HERRAMIENTAS</span><h2 id="tech-title">Mi caja de <span>herramientas.</span></h2></div><p>Tecnologías que utilizo en proyectos reales y que continúo reforzando.</p></div><div class="skills-grid"><div class="skill-group"><span class="skill-num">01</span><h3>Lenguajes</h3><p>JavaScript · PHP · Java · Python</p></div><div class="skill-group"><span class="skill-num">02</span><h3>Frameworks</h3><p>React · React Native · Node.js · Laravel · JavaFX</p></div><div class="skill-group"><span class="skill-num">03</span><h3>Datos y servicios</h3><p>PostgreSQL · MySQL · Supabase · APIs REST</p></div><div class="skill-group"><span class="skill-num">04</span><h3>Despliegue y flujo</h3><p>Git · GitHub · Vercel · Render · VS Code · Codex</p></div></div></div></section>
+
+    <section class="about-section section-pad container" id="sobre-mi" aria-labelledby="about-title"><div class="about-aside"><div class="about-initials" aria-hidden="true">SC<span>.</span></div><div class="about-location">Badalona · Barcelona<br/>España</div></div><div class="about-main"><span class="section-kicker">03 / SOBRE MÍ</span><h2 id="about-title">Una nueva etapa, con <span>proyectos reales.</span></h2><p>Estoy terminando el ciclo formativo de grado superior en Desarrollo de Aplicaciones Web (DAW), con prácticas previstas para enero de 2027. Mi objetivo es incorporarme profesionalmente al sector del desarrollo de software.</p><p>Mi experiencia laboral previa me ha enseñado a escuchar necesidades, resolver incidencias y trabajar con responsabilidad. He aprovechado esa experiencia para crear aplicaciones propias y desarrollar soluciones para otras personas.</p><div class="about-facts"><div><b>DAW</b><span>Formación en fase final</span></div><div><b>Enero 2027</b><span>Prácticas previstas · Ayuntamiento de Badalona</span></div><div><b>IA aplicada</b><span>Codex como apoyo: diseño soluciones, pruebo y reviso resultados</span></div></div></div></section>
+
+    <section class="cta-section" id="contacto" aria-labelledby="contact-title"><div class="container cta-inner"><div><span class="section-kicker">04 / CONTACTO</span><h2 id="contact-title">¿Hablamos de una <span>oportunidad?</span></h2><p>Me interesa incorporarme a un equipo donde pueda seguir aprendiendo, contribuir a proyectos reales y crecer como desarrollador web o de aplicaciones.</p></div><div class="cta-panel"><span class="cta-note">DISPONIBILIDAD</span><strong>Abierto a oportunidades junior</strong><p>Si has llegado desde LinkedIn, puedes escribirme directamente por mensaje privado en mi perfil.</p><a class="btn btn-primary" href="#proyectos">Ver mis proyectos <span aria-hidden="true">↗</span></a><div class="editable-contact" id="contact-links" hidden></div></div></div></section>
+    <footer class="footer"><div class="container footer-row"><span><b>Sergio de la Cruz</b> · Portfolio de desarrollo</span><span>Diseñado con HTML, CSS y JavaScript <span class="footer-heart" aria-hidden="true">✦</span></span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  </main>
+</body>
+</html>
